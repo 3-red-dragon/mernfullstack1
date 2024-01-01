@@ -1,0 +1,25 @@
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:black;
+}
+
+.search button {
+    background-color:aquamarine;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.notfound{
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    height: 60px;
+    width: 400px;
+    /* background-color: rgb(245, 245, 181); */
+    margin: auto;
+    margin-top: 50px;
+    color: red;
+    text-shadow: red 0.1em 0.1em 0.2em;
+}
